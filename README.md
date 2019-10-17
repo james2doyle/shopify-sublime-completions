@@ -2,6 +2,10 @@
 
 > A collection of completions for Shopify liquid templates
 
+### Preface
+
+Be sure to install [braver/sublime-liquid](https://github.com/braver/sublime-liquid) so you can have Liquid syntax scopes properly setup.
+
 ### Usage
 
 *With Git*
