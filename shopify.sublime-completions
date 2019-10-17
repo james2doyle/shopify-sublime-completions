@@ -14,7 +14,7 @@
     { "trigger": "decrement", "contents": "{% decrement ${1:counter} %}${0}" },
     { "trigger": "render", "contents": "{% render '${1:name}', ${2:${3:variable}: ${4:value}} %}${0}" },
     { "trigger": "tablerow", "contents": "{% tablerow ${1:product} in ${2:collection.products} %}{{ ${3:product.title} }}{% endtablerow %}${0}" },
-    { "trigger": "paginate", "contents": "{% paginate ${1:collection.products} by ${2:5} %}\n\t{% for ${3:product} in ${1:collection.products} %}\n{% endfor %}\n{% endpaginate %}${0}" },
+    { "trigger": "paginate", "contents": "{% paginate ${1:collection.products} by ${2:5} %}\n\t{% for ${3:product} in ${1:collection.products} %}\n\t\t{{ ${3:product.id} }}\n\t{% endfor %}\n{% endpaginate %}${0}" },
     { "trigger": "form", "contents": "{% form \"${1:name}\", ${2:product,} ${3:id: \"newID\",} ${3:class: \"custom-class\",} ${3:data-example: \"100\"} %}${4:content}{% endform %}${0}" }
   ]
 }
