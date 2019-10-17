@@ -48,7 +48,7 @@
     },
     {
       "trigger": "where\tShopify where",
-      "contents": "where: '${1:field}' ${2:,${3:'value'}} ${0}"
+      "contents": "where: '${1:field}'${2:, ${3:'value'}} ${0}"
     },
     {
       "trigger": "color_to_rgb\tShopify color_to_rgb",
@@ -116,7 +116,7 @@
     },
     {
       "trigger": "font_url\tShopify font_url",
-      "contents": "font_url${1:, : '${2:woff}'}${0}"
+      "contents": "font_url${1:: '${2:woff}'}${0}"
     },
     {
       "trigger": "img_tag\tShopify img_tag",
@@ -180,7 +180,7 @@
     },
     {
       "trigger": "round\tShopify round",
-      "contents": "round${1:, '${2:2}'}${0}"
+      "contents": "round${1:: '${2:2}'}${0}"
     },
     {
       "trigger": "times\tShopify times",
@@ -420,7 +420,7 @@
       },
       {
         "trigger": "default_pagination\tShopify default_pagination",
-        "contents": "default_pagination${1:: next: '${2:Older}', previous: '${3:Newer}'}${0}"
+        "contents": "default_pagination${1:: next: '${2:Older}'${3:, previous: '${4:Newer}'}}${0}"
       },
       {
         "trigger": "format_address\tShopify format_address",
