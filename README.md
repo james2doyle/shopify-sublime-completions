@@ -18,7 +18,7 @@ Be sure to install [braver/sublime-liquid](https://github.com/braver/sublime-liq
 - "Package Control > Add Repository"
 - https://github.com/james2doyle/shopify-sublime-completions
 - "Package Control > Install Package"
-- Search for "Shopify" and install the package
+- Install "shopify-sublime-completions" package
 
 ### TODO
 
