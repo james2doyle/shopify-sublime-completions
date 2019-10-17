@@ -44,7 +44,7 @@
     },
     {
       "trigger": "render\tShopify render",
-      "contents": "{% render '${1:name}', ${2:${3:variable}: ${4:value}} %}${0}"
+      "contents": "{% render '${1:name}'${2:, ${3:variable}: ${4:value}} %}${0}"
     },
     {
       "trigger": "tablerow\tShopify tablerow",
