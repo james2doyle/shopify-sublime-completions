@@ -23,5 +23,5 @@ Be sure to install [braver/sublime-liquid](https://github.com/braver/sublime-liq
 ### TODO
 
 - [x] tags (pairs)
-- [ ] filters
+- [x] filters
 - [ ] objects
