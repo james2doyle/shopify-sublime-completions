@@ -361,90 +361,90 @@
     {
       "trigger": "link_to\tShopify link_to",
       "contents": "link_to: '${1:https://www.shopify.com}', '${2:A link to Shopify}'${0}"
-      },
-      {
-        "trigger": "link_to_vendor\tShopify link_to_vendor",
-        "contents": "link_to_vendor${0}"
-      },
-      {
-        "trigger": "link_to_type\tShopify link_to_type",
-        "contents": "link_to_type${0}"
-      },
-      {
-        "trigger": "link_to_tag\tShopify link_to_tag",
-        "contents": "link_to_tag: ${1:tag}${0}"
-      },
-      {
-        "trigger": "link_to_add_tag\tShopify link_to_add_tag",
-        "contents": "link_to_add_tag: ${1:tag}${0}"
-      },
-      {
-        "trigger": "link_to_remove_tag\tShopify link_to_remove_tag",
-        "contents": "link_to_remove_tag: ${1:tag}${0}"
-      },
-      {
-        "trigger": "payment_type_img_url\tShopify payment_type_img_url",
-        "contents": "payment_type_img_url${0}"
-      },
-      {
-        "trigger": "shopify_asset_url\tShopify shopify_asset_url",
-        "contents": "shopify_asset_url${0}"
-      },
-      {
-        "trigger": "sort_by\tShopify sort_by",
-        "contents": "sort_by: '${1:best-selling}'${0}"
-      },
-      {
-        "trigger": "url_for_type\tShopify url_for_type",
-        "contents": "url_for_type${0}"
-      },
-      {
-        "trigger": "url_for_vendor\tShopify url_for_vendor",
-        "contents": "url_for_vendor${0}"
-      },
-      {
-        "trigger": "within\tShopify within",
-        "contents": "within: ${1:collection}${0}"
-      },
-      {
-        "trigger": "date\tShopify date",
-        "contents": "date: '${1:%a, %b %d, %y}'${0}"
-      },
-      {
-        "trigger": "default\tShopify default",
-        "contents": "default: '${1:default}'${2:, allow_false: ${3:false}}${0}"
-      },
-      {
-        "trigger": "default_errors\tShopify default_errors",
-        "contents": "default_errors${0}"
-      },
-      {
-        "trigger": "default_pagination\tShopify default_pagination",
-        "contents": "default_pagination${1:: next: '${2:Older}'${3:, previous: '${4:Newer}'}}${0}"
-      },
-      {
-        "trigger": "format_address\tShopify format_address",
-        "contents": "format_address${0}"
-      },
-      {
-        "trigger": "highlight\tShopify highlight",
-        "contents": "highlight: ${1:search.terms}${0}"
-      },
-      {
-        "trigger": "highlight_active_tag\tShopify highlight_active_tag",
-        "contents": "highlight_active_tag${0}"
-      },
-      {
-        "trigger": "json\tShopify json",
-        "contents": "json${0}"
-      },
-      {
-        "trigger": "weight_with_unit\tShopify weight_with_unit",
-        "contents": "weight_with_unit${1:: ${2:variant.weight_unit}}${0}"
-      },
-      {
-        "trigger": "placeholder_svg_tag\tShopify placeholder_svg_tag",
-        "contents": "placeholder_svg_tag${1:: '${2:custom}'}${0}"
-      }
-    ]
+    },
+    {
+      "trigger": "link_to_vendor\tShopify link_to_vendor",
+      "contents": "link_to_vendor${0}"
+    },
+    {
+      "trigger": "link_to_type\tShopify link_to_type",
+      "contents": "link_to_type${0}"
+    },
+    {
+      "trigger": "link_to_tag\tShopify link_to_tag",
+      "contents": "link_to_tag: ${1:tag}${0}"
+    },
+    {
+      "trigger": "link_to_add_tag\tShopify link_to_add_tag",
+      "contents": "link_to_add_tag: ${1:tag}${0}"
+    },
+    {
+      "trigger": "link_to_remove_tag\tShopify link_to_remove_tag",
+      "contents": "link_to_remove_tag: ${1:tag}${0}"
+    },
+    {
+      "trigger": "payment_type_img_url\tShopify payment_type_img_url",
+      "contents": "payment_type_img_url${0}"
+    },
+    {
+      "trigger": "shopify_asset_url\tShopify shopify_asset_url",
+      "contents": "shopify_asset_url${0}"
+    },
+    {
+      "trigger": "sort_by\tShopify sort_by",
+      "contents": "sort_by: '${1:best-selling}'${0}"
+    },
+    {
+      "trigger": "url_for_type\tShopify url_for_type",
+      "contents": "url_for_type${0}"
+    },
+    {
+      "trigger": "url_for_vendor\tShopify url_for_vendor",
+      "contents": "url_for_vendor${0}"
+    },
+    {
+      "trigger": "within\tShopify within",
+      "contents": "within: ${1:collection}${0}"
+    },
+    {
+      "trigger": "date\tShopify date",
+      "contents": "date: '${1:%a, %b %d, %y}'${0}"
+    },
+    {
+      "trigger": "default\tShopify default",
+      "contents": "default: '${1:default}'${2:, allow_false: ${3:false}}${0}"
+    },
+    {
+      "trigger": "default_errors\tShopify default_errors",
+      "contents": "default_errors${0}"
+    },
+    {
+      "trigger": "default_pagination\tShopify default_pagination",
+      "contents": "default_pagination${1:: next: '${2:Older}'${3:, previous: '${4:Newer}'}}${0}"
+    },
+    {
+      "trigger": "format_address\tShopify format_address",
+      "contents": "format_address${0}"
+    },
+    {
+      "trigger": "highlight\tShopify highlight",
+      "contents": "highlight: ${1:search.terms}${0}"
+    },
+    {
+      "trigger": "highlight_active_tag\tShopify highlight_active_tag",
+      "contents": "highlight_active_tag${0}"
+    },
+    {
+      "trigger": "json\tShopify json",
+      "contents": "json${0}"
+    },
+    {
+      "trigger": "weight_with_unit\tShopify weight_with_unit",
+      "contents": "weight_with_unit${1:: ${2:variant.weight_unit}}${0}"
+    },
+    {
+      "trigger": "placeholder_svg_tag\tShopify placeholder_svg_tag",
+      "contents": "placeholder_svg_tag${1:: '${2:custom}'}${0}"
+    }
+  ]
 }
